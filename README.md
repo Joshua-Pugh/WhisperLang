@@ -40,19 +40,3 @@ The interpreter breaks down logic and provides real-time feedback:
 Joshua Pugh
 B.S. in Computer Science & Software Engineering
 Diesel Technician turned Developer
-
-## 🧠 Example Script
-
-```python
-script1 = [
-    "set a to 5",
-    "set b to 8",
-    "multiply a by 2",
-    "if a greater than b:",
-    "    set x to 3",
-    "    add x to b",
-    "    say b",
-    "else:",
-    "    say a"
-]
-
