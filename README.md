@@ -33,6 +33,7 @@ This is how a script is written in WhisperLang:
 ![Script Input](images/input-script.png)
 
 ### 🔍 Debug Output
+
 The interpreter breaks down logic and provides real-time feedback:
 ![Debug Output](images/debug-output.png)
 
