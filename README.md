@@ -29,6 +29,7 @@ Develop REPL interface with history and error tracking
 
 ### 🧾 Input Script
 This is how a script is written in WhisperLang:
+
 ![Script Input](images/input-script.png)
 
 ### 🔍 Debug Output
