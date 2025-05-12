@@ -38,6 +38,7 @@ The interpreter breaks down logic and provides real-time feedback:
 ### 🧠 Variable Evaluation
 Outputs from `say` commands reflect real-time variable state:
 ![Variable Output](images/final-output.png)
+![Variable Output](images/final-output2.png)
 
 ### Author
 Joshua Pugh
