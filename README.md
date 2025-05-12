@@ -19,11 +19,11 @@
 
 ## Roadmap
 
-Add functions and return statements
-Support list/array structures
-Implement user-defined commands
-Add runtime state inspection and dump tools
-Develop REPL interface with history and error tracking
+Add functions and return statements,
+Support list/array structures,
+Implement user-defined commands,
+Add runtime state inspection and dump tools,
+Develop REPL interface with history and error tracking,
 
 ## 🖼️ Demo
 
