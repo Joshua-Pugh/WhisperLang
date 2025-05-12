@@ -35,10 +35,6 @@ This is how a script is written in WhisperLang:
 The interpreter breaks down logic and provides real-time feedback:
 ![Debug Output](images/debug-output.png)
 
-### 🧠 Variable Evaluation
-Outputs from `say` commands reflect real-time variable state:
-![Variable Output](images/final-output.png)
-![Variable Output](images/final-output2.png)
 
 ### Author
 Joshua Pugh
