@@ -45,6 +45,9 @@ if a greater than b:
     say "a is greater"
 else:
     say "a is not greater"
+```
+
+```plaintext
 🔍 Debug Output (Console)
 
 [DEBUG] Executing handler: handle_set
@@ -54,9 +57,9 @@ else:
 [DEBUG] Left: 10, Operator: >, Right: 8
 [DEBUG] Executing handler: handle_say
 [DEBUG] Executing handler: handle_say
+```
 
-
-👤 Author
+### 👤 Author
 Joshua Pugh
 B.S. in Computer Science & Software Engineering
 Diesel Technician turned Software Developer
