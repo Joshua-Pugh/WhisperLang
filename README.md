@@ -60,6 +60,6 @@ else:
 ```
 
 ### 👤 Author
-Joshua Pugh
-B.S. in Computer Science & Software Engineering
-Diesel Technician turned Software Developer
+**Joshua Pugh**
+B.S. in Computer Science & Software Engineering  
+*Diesel Technician turned Software Developer*
