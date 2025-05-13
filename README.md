@@ -1,44 +1,62 @@
-# WhisperLang
-# 🗣️ WhisperLang Interpreter (v0.1)
+# 🗣️ WhisperLang (v0.1)
 
-> A plain-English scripting language interpreter built from scratch in Python  
-> Designed to parse and execute natural-language logic like `if`, `repeat`, and math operations.
-
----
-
-## 📌 Features
-
-- ✅ Human-readable scripting (e.g., `set x to 5`, `multiply a by 2`)
-- ✅ Math operations: `add`, `subtract`, `multiply`, `divide`, `round`
-- ✅ Control flow: `if`, `else`, `while`, `repeat x times`
-- ✅ Variable storage and evaluation
-- ✅ Modular design (parser, interpreter, math ops, logic, etc.)
-- ✅ Debug mode for tracing behavior (`[DEBUG]` logs)
+**A plain-English scripting language interpreter built from scratch in Python.**  
+WhisperLang executes human-readable commands like `set x to 5`, `if x greater than 3:`, and `repeat 3 times:`—bridging natural language and logic.
 
 ---
 
-## Roadmap
+## ✨ Features
 
-Add functions and return statements,
-Support list/array structures,
-Implement user-defined commands,
-Add runtime state inspection and dump tools,
-Develop REPL interface with history and error tracking,
+- ✅ **Human-readable syntax**  
+  `set x to 5`, `multiply a by 2`, `say x`
+- ✅ **Math operations**  
+  `add`, `subtract`, `multiply`, `divide`, `round`
+- ✅ **Control flow**  
+  `if`, `else`, `while`, `repeat x times`
+- ✅ **Variable evaluation** and memory management
+- ✅ **Modular design**  
+  Built with clean separation: parser, interpreter, logic, and math layers
+- ✅ **Debug-friendly**  
+  Logs steps using `[DEBUG]` output for transparency and troubleshooting
+
+---
+
+## 🛣️ Roadmap
+
+- [ ] Function definitions and return values  
+- [ ] List/array support  
+- [ ] User-defined commands/macros  
+- [ ] Runtime state inspection tools  
+- [ ] REPL with command history and error handling  
+
+---
 
 ## 🖼️ Demo
 
-### 🧾 Input Script
-This is how a script is written in WhisperLang:
+### 🧾 Example Script
 
-![Script Input](images/input-script.png)
+```plaintext
+set a to 5  
+set b to 8  
+multiply a by 2  
 
-### 🔍 Debug Output
+if a greater than b:
+    say a
+    say "a is greater"
+else:
+    say "a is not greater"
+🔍 Debug Output (Console)
 
-The interpreter breaks down logic and provides real-time feedback:
-![Debug Output](images/debug-output.png)
+[DEBUG] Executing handler: handle_set
+[DEBUG] Executing handler: handle_set
+[DEBUG] Executing handler: handle_multiply
+[DEBUG] Evaluating condition: 'a greater than b'
+[DEBUG] Left: 10, Operator: >, Right: 8
+[DEBUG] Executing handler: handle_say
+[DEBUG] Executing handler: handle_say
 
 
-### Author
+👤 Author
 Joshua Pugh
 B.S. in Computer Science & Software Engineering
-Diesel Technician turned Developer
+Diesel Technician turned Software Developer
